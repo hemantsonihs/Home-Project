@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+.profile-bd {
+    background: url(img/bg1.jpg) no-repeat center center;
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.heading {
+    margin: 5px;
+    padding: 5px;
+    border: orange dashed 5px;
+    border-radius: 10%;
+    font-size: 30px;
+    text-align: center;
+    background: rgb(241, 231, 161);
+    font-weight: bold;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.container {
+    /* align-items: center; */
+    justify-content: center;
+    display: flex;
+    float: left;
+}
+
+.container1 {
+    /* align-items: center; */
+    justify-content: center;
+    display: flex;
+    float: right;
+}
+
+.profile-box {
+    /* border: 20px black solid ; */
+    background: none;
+    text-align: center;
+    padding: 40px 90px;
+    position: relative;
+    border-radius: 20px;
+}
+
+.menu-pic {
+    width: 40px;
+    position: absolute;
+    left: 30px;
+    top: 30px;
+}
+
+.setting-pic {
+    width: 40px;
+    position: absolute;
+    right: 30px;
+    top: 30px;
+    border: none 5px;
+}
+
+.profile-pic {
+    width: 150px;
+    border-radius: 50%;
+    background: white;
+    padding: 10px;
+    margin-top: 30px;
+}
+
+.social-handle {
+    margin-top: 20px;
+    width: 45px;
+    height: 45px;
+    /* padding: 30px; */
+}
+
+.profile-bottom {
+    /* padding-top: 70px; */
+    font-size: 30px;
+    font-weight: bold;
+    padding: 60px 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background: white;
+    border-radius: 20px;
+}
+
+.cancelbtn {
+    text-align: center;
+    box-sizing: border-box;
+    border: 3px solid rgb(235, 172, 172);
+    border-radius: 30px;
+    margin: 20px 20px 20px 650px;
+    padding: 20px;
+    width: 100%;
+    height: 50px;
+    background-color: #36cef4f5;
+}

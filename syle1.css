@@ -1,0 +1,143 @@
+body {
+    padding: 10px 0px;
+    background: url(img/bg.jpg) no-repeat center center fixed;
+    background-size: cover;
+    word-spacing: normal;
+}
+
+.container {
+    /* padding: 12px solid red; */
+    position: absolute;
+    left: 20%;
+    top: 6%;
+    width: 60%;
+    background-color: rgb(253, 247, 247);
+    background-size: cover;
+    border: 3px solid rgb(128, 238, 238);
+    border-radius: 10px;
+}
+
+.heading {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 35px;
+    text-align: center;
+}
+
+.formdesign {
+    font-size: 18px;
+    padding-left: 20px;
+    text-align: justify;
+}
+
+.formdesign input {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    width: 65%;
+    padding: 5px 10px;
+    border: 1px solid rgb(157, 150, 150);
+    margin-bottom: 3px;
+    border-radius: 4px;
+    font-size: 13px;
+    background-color: aliceblue;
+    box-sizing: content-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    opacity: 10px;
+    outline-style: auto;
+}
+
+.formerror {
+    color: red;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 15px;
+}
+
+.but {
+    background: none;
+    opacity: 5px;
+    /* padding-top: 10px; */
+    color: greenyellow;
+    border-radius: 9px;
+    width: 110px;
+    /* text-shadow: 1px 0.5px; */
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    height: 40px;
+    font-size: 20px;
+    margin: 5px 5px;
+}
+
+.but:hover {
+    background-color: blanchedalmond;
+    font-size: larger;
+    cursor: pointer;
+}
+
+
+/* The Close Button (x) */
+
+.close {
+    position: absolute;
+    right: 30px;
+    top: 10px;
+    font-size: 40px;
+    font-weight: bold;
+    color: #f1f1f1;
+}
+
+.close:hover,
+.close:focus {
+    color: #f44336;
+    cursor: pointer;
+}
+
+.clearfix {
+    padding-left: 10px;
+}
+
+
+/* Clear floats */
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+
+/* Set a style for all buttons */
+
+button {
+    background-color: #04AA6D;
+    color: white;
+    padding: 14px 20px;
+    margin: 4px 0;
+    border: none;
+    cursor: pointer;
+    width: 40%;
+    opacity: 0.9;
+    border-radius: 30px;
+    margin-left: 20px;
+}
+
+button:hover {
+    opacity: 1;
+}
+
+
+/* Extra styles for the cancel button */
+
+.cancelbtn {
+    border-radius: 30px;
+    /* margin: 2px; */
+    padding: 14px 20px;
+    background-color: #f44336;
+}
+
+
+/* Float cancel and signup buttons and add an equal width */
+
+.cancelbtn,
+.signupbtn {
+    float: left;
+    width: 45%;
+}

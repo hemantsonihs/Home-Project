@@ -1,0 +1,446 @@
+body {
+    /* background-image: url('images/1.jpeg'); */
+    background-size: 100%;
+    background-color: rgb(248, 247, 247);
+}
+
+.nav-bar ul {
+    max-width: 100%;
+    border: 5px solid rgb(241, 223, 175);
+    max-height: 100px;
+    box-shadow: 0 -10px 2px 0 rgb(0 0 0 / 20%), 0 1px 5px 0 rgb(0 0 0 / 19%);
+    border-radius: 0 0 64px 64px;
+    padding: 10px;
+    padding-bottom: 20px;
+    position: relative;
+}
+
+.manage {
+    background-color: rgb(214, 210, 210);
+    font-style: italic;
+    margin: 0px 5px;
+    margin-left: 5px;
+    text-align: center;
+    word-spacing: 70px;
+    padding-right: 20px;
+    font-size: 20px;
+    padding-bottom: 50px;
+}
+
+.ma {
+    border-radius: 10px;
+    width: 130px;
+    height: 40px;
+    float: left;
+    margin-left: 80px;
+}
+
+.logo {
+    filter: none;
+    -webkit-filter: blur(0px);
+    -moz-filter: blur(0px);
+    -ms-filter: blur(0px);
+    filter: progid: DXImageTransform.Microsoft.Blur(PixelRadius='0');
+    border-radius: 10px;
+    width: 130px;
+    height: 40px;
+    float: left;
+    margin-left: 80px;
+}
+
+.f1 {
+    font-family: arial;
+    font-size: 16px;
+    font-weight: 60%;
+    position: relative;
+    padding-bottom: 300px;
+}
+
+.h1 {
+    color: rgba(59, 56, 56, 0.609);
+    text-align: center;
+    position: relative;
+}
+
+.p1 {
+    font-style: oblique;
+    font-family: arial;
+    font-size: 20px;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.a1 {
+    float: right;
+    padding-right: 50px;
+}
+
+.imgs {
+    box-sizing: border-box;
+    margin-left: 6px;
+    position: absolute;
+    width: 99.2%;
+    height: 400px;
+    border: 3px solid black;
+    border-radius: 20px;
+}
+
+.p2 {
+    padding-bottom: 50%;
+    margin-left: 0px;
+    float: left;
+    max-width: 500px;
+    line-height: 28px;
+    font-size: 20px;
+    padding: 10px;
+    font-size: 14px;
+}
+
+.img1 {
+    margin-top: 2px;
+    float: right;
+    margin-right: 80px;
+    width: 40%;
+    height: 300px;
+    border: 3px solid rgb(200, 209, 214);
+    border-radius: 30px;
+}
+
+.dropbtn {
+    background-color: transparent;
+    color: #069;
+    text-decoration: underline;
+    font-size: 18px;
+    border: none;
+    cursor: pointer;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    overflow: auto;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown a:hover {
+    background-color: #ddd;
+}
+
+.show {
+    display: block;
+}
+
+.golds {
+    background-color: rgb(207, 189, 166);
+}
+
+.heds {
+    margin: 3px;
+    text-align: center;
+    border: 3px solid black;
+    border-radius: 30px;
+    background-color: rgb(209, 240, 229);
+    font-style: oblique;
+}
+
+.p4 {
+    margin-left: 80px;
+    color: rgb(23, 87, 87);
+    font-size: 20px;
+    border: 3px solid rgb(170, 168, 168);
+    list-style-type: none;
+    padding: 40px;
+    text-decoration: underline rgb(173, 171, 171);
+    text-decoration-thickness: 5%;
+    line-height: 30px;
+    font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+
+.p4 li {
+    padding: 15px;
+}
+
+.p4 a {
+    padding-top: 30px;
+    text-align: center;
+    padding-left: 25px;
+}
+
+.rk {
+    text-align: center;
+    margin: 30px 0px 30px;
+    border: 3px solid rgba(62, 238, 238, 0.835);
+    border-radius: 30px;
+    box-sizing: border-box;
+}
+
+.main-rk {
+    text-align: center;
+    margin: 10px 0px 10px 550px;
+    border: 3px solid rgba(129, 184, 236, 0.835);
+    border-radius: 30px;
+    box-sizing: border-box;
+    height: 50%;
+    width: 200px;
+}
+
+.size {
+    padding-bottom: 400px;
+}
+
+.foot {
+    text-align: center;
+    width: 100%;
+    height: 400px;
+    border: 3px solid #17a2bf;
+    border-radius: 64px 64px 0 0;
+}
+
+.mab {
+    font-style: oblique;
+    font-family: "Google Sans", sans-serif;
+}
+
+
+/* footer */
+
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,500,300,700);
+* {
+    font-family: Open Sans;
+}
+
+section {
+    width: 100%;
+    display: inline-block;
+    background: #333;
+    height: 50vh;
+    text-align: center;
+    font-size: 22px;
+    font-weight: 700;
+    text-decoration: underline;
+}
+
+.footer-distributed {
+    background: #666;
+    box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
+    box-sizing: border-box;
+    width: 100%;
+    text-align: left;
+    font: bold 16px sans-serif;
+    padding: 55px 50px;
+}
+
+.footer-distributed .footer-left,
+.footer-distributed .footer-center,
+.footer-distributed .footer-right {
+    display: inline-block;
+    vertical-align: top;
+}
+
+
+/* Footer left */
+
+.footer-distributed .footer-left {
+    width: 40%;
+}
+
+
+/* The company logo */
+
+.footer-distributed h3 {
+    color: #ffffff;
+    font: normal 36px 'Open Sans', cursive;
+    margin: 0;
+}
+
+.footer-distributed h3 span {
+    color: lightseagreen;
+}
+
+
+/* Footer links */
+
+.footer-distributed .footer-links {
+    color: #ffffff;
+    margin: 20px 0 12px;
+    padding: 0;
+}
+
+.footer-distributed .footer-links a {
+    display: inline-block;
+    line-height: 1.8;
+    font-weight: 400;
+    text-decoration: none;
+    color: inherit;
+}
+
+.footer-distributed .footer-company-name {
+    padding-left: 50px;
+    color: rgb(144, 230, 230);
+    font-size: 14px;
+    font-weight: normal;
+    margin: 0;
+}
+
+
+/* Footer Center */
+
+.footer-distributed .footer-center {
+    width: 35%;
+}
+
+.footer-distributed .footer-center i {
+    background-color: #33383b;
+    color: #ffffff;
+    font-size: 25px;
+    width: 38px;
+    height: 38px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 42px;
+    margin: 10px 15px;
+    vertical-align: middle;
+}
+
+.footer-distributed .footer-center i.fa-envelope {
+    font-size: 17px;
+    line-height: 38px;
+}
+
+.footer-distributed .footer-center p {
+    display: inline-block;
+    color: #ffffff;
+    font-weight: 400;
+    vertical-align: middle;
+    margin: 0;
+}
+
+.footer-distributed .footer-center p span {
+    display: block;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 2;
+}
+
+.footer-distributed .footer-center p a {
+    color: lightseagreen;
+    text-decoration: none;
+    ;
+}
+
+.footer-distributed .footer-links a:before {
+    content: "|";
+    font-weight: 300;
+    font-size: 20px;
+    left: 0;
+    color: #fff;
+    display: inline-block;
+    padding-right: 5px;
+}
+
+.footer-distributed .footer-links .link-1:before {
+    content: none;
+}
+
+
+/* Footer Right */
+
+.footer-distributed .footer-right {
+    width: 20%;
+}
+
+.footer-distributed .footer-company-about {
+    line-height: 20px;
+    color: #92999f;
+    font-size: 13px;
+    font-weight: normal;
+    margin: 0;
+}
+
+.footer-distributed .footer-company-about span {
+    display: block;
+    color: #ffffff;
+    font-size: 14px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.footer-distributed .footer-icons {
+    margin-top: 25px;
+}
+
+.footer-distributed .footer-icons a {
+    display: inline-block;
+    width: 35px;
+    height: 35px;
+    cursor: pointer;
+    background-color: #33383b;
+    border-radius: 2px;
+    font-size: 20px;
+    color: #ffffff;
+    text-align: center;
+    line-height: 35px;
+    margin-right: 3px;
+    margin-bottom: 5px;
+}
+
+.footer-distributed .footer-center i {
+    background-color: #33383b;
+    color: #ffffff;
+    font-size: 25px;
+    width: 38px;
+    height: 38px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 42px;
+    margin: 10px 15px;
+    vertical-align: middle;
+}
+
+.contect {
+    color: rgb(127, 236, 127);
+    text-align: center;
+    border: 3px solid rgba(209, 189, 189, 0.507);
+    margin-bottom: 40px;
+}
+
+.address {
+    padding: 3px;
+    border: 2px solid #17a2bf;
+    border-radius: 10px;
+}
+
+
+/* If you don't want the footer to be responsive, remove these media queries */
+
+@media (max-width: 880px) {
+    .footer-distributed {
+        font: bold 14px sans-serif;
+    }
+    .footer-distributed .footer-left,
+    .footer-distributed .footer-center,
+    .footer-distributed .footer-right {
+        display: block;
+        width: 100%;
+        margin-bottom: 40px;
+        text-align: center;
+    }
+    .footer-distributed .footer-center i {
+        margin-left: 0;
+    }
+}

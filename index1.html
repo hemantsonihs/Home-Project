@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>JavaScript Form Validation</title>
+    <link rel="stylesheet" href="syle1.css">
+    <script src="index1.js"></script>
+    <script src="https://kit.fontawesome.com/6f300638ac.js" crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+    <div class="container">
+        <header class="heading">Welcome to MAB
+            <p style="font-size: 18px; text-align: centre;"><strong>Please fill in this form to create an account</strong></p>
+            <!-- <hr class="headerLine" style="height: 2px; border: 2px solid lightblue;"> -->
+        </header>
+        <form aciton="/index.html" name="myForm" onsubmit="return validateForm()" method="post">
+            <div class="formdesign" id="name">
+                <p>Name:</p>
+                <input type="text" name="fname" required><b><span class="formerror"> </span></b>
+            </div>
+
+            <div class="formdesign" id="email">
+                <p>Email: </p>
+                <input type="email" name="femail" required><b><span class="formerror"> </span></b>
+            </div>
+
+            <div class="formdesign" id="phone">
+                <p>Phone: </p>
+                <input type="phone" name="fphone" pattern="[6-9]{1}[0-9]{9}" required><b><span class="formerror"></span></b>
+            </div>
+
+            <div class="formdesign" id="pass">
+                <p>Password: </p>
+                <input type="password" name="fpass" required><b> <span class="formerror" </span> </b>
+            </div>
+
+            <div class="formdesign" id="cpass">
+                <p>Confirm Password:</p>
+                <input type="password" name="fcpass" required><b><span class="formerror"></span></b>
+            </div>
+            <label for="">
+                <input type="checkbox" name="remember" style="margin-bottom: 15px;padding-top: 10px;" id="rememberMe">Remember Me
+            </label>
+            <br>
+
+            <p>By creating an account you agree to our <a href="#" style="color:dodgerblue">Terms & Privacy</a>.</p>
+
+            <!-- <button class="but" type="submit" value="Submit">Submit</button> -->
+
+            <div class="clearfix">
+                <button type="submit" class="signupbtn" value="Submit">Sign Up</button>
+                <a href="file:///Users/hemantsoni/Documents/Home%20Project/index.html"><button type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn">Return</button></a>
+            </div>
+
+        </form>
+    </div>
+</body>
+
+
+</html>

@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background: url(img/bg.jpg) no-repeat center center fixed ;
+    background-size: cover;
+}
+.container{
+    /* border: 12px solid black; */
+    color: aliceblue;
+    position: absolute;
+    top: 25%;
+    left: 15%;
+}
+.container h1{
+    font-family: 'Montserrat', sans-serif;
+    display:inline-block;
+    font-size: 45px;
+    text-decoration:underline  powderblue auto;
+    /* border-bottom: 10px solid plum; */
+    /* margin-bottom: 10px; */
+    padding: 20px 0;
+    font-weight: lighter ;
+}
+
+.box{
+    width: 100%;
+    border-bottom: 3px solid white;
+    margin: 13px 0 ;
+    /* border: 2px solid white; */
+}
+
+.box input{
+    background: none;
+    font-size: 15px;
+    width: 75%;
+    border: none;
+    outline: none;
+    /* color:white; */
+    padding: 7px 10px;
+    margin: 5px;
+}
+.box i{
+    width: 25px;
+    /* float: left; */
+    text-align: center;
+    /* padding: 0 13px; */
+    cursor:not-allowed;
+}
+
+/* #myPassward{
+    oncopy:"return false";
+} */
+
+.formError{
+    color: red;
+}
+
+.btn{
+    font-size: 20px;
+    cursor: pointer;
+    outline: none;
+    /* width: 25%; */
+    margin: 10px 0;
+    padding: 10px;
+    border-radius: 11px;
+    border: 2px solid white;
+    background: none;
+    color: white;
+    font-weight: bold initial;
+    /* shape-margin: 3px; */
+    /* box-shadow: 10px; */
+}
+
+.btn:hover{
+    border: 1px solid blueviolet;
+    opacity: 0.4;
+    /* background: white; */
+    color:blue;
+    font-weight: bold initial;
+    padding: 15px;
+    text-align: end;
+    box-shadow: 5px 1px;
+}

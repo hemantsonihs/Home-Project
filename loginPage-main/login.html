@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <script src="https://kit.fontawesome.com/6f300638ac.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css" class="css">
+    <script src="loginPage.js"></script>
+</head>
+<body oncopy="return false" oncut="return false" onpaste="return false">
+    <div class="container">
+        <h1>Login to MAB</h1>
+        <form id="myForm" action="index.html" onsubmit="return validateForm()">
+            <div class="box">
+                <i class="fa fa-envelope-o"></i>
+                <input type="email" name="email" id="username" placeholder="Enter Your Email" value="" required>
+                <span class="formError"></span>
+            </div>
+    
+            <div class="box">
+                <i class="fa fa-unlock"></i>
+                <input type="password" name="pass" id="myPassword" placeholder="Enter Your Passward" required>
+                <span class="formError"></span>
+            </div>
+            <button href="#" class="btn btn-primary" id="loginBtn">Sign In</button>
+            <!-- <button id="hello" type="reset">reset</button> -->
+        </div>
+        </form>
+    
+</body>
+</html>
